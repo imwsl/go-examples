@@ -1,0 +1,9 @@
+2021/11/08 21:56:25.772011 /home/ryan/golang/src/goexamples/go.logger.test/go.logger.test.go:28: This is a normal log....
+2021/11/08 21:56:25.772162 /home/ryan/golang/src/goexamples/go.logger.test/go.logger.test.go:32: This is a Error Found!!
+[fatal error]2021/11/08 21:56:25.772180 /home/ryan/golang/src/goexamples/go.logger.test/go.logger.test.go:35: This is a fatal log
+2021/11/08 22:02:44.665191 /home/ryan/golang/src/goexamples/go.logger.test/go.logger.test.go:28: This is a normal log....
+2021/11/08 22:02:44.665292 /home/ryan/golang/src/goexamples/go.logger.test/go.logger.test.go:32: This is a Error Found!!
+[fatal error]2021/11/08 22:02:44.665300 /home/ryan/golang/src/goexamples/go.logger.test/go.logger.test.go:35: This is a fatal log
+2021/11/08 22:04:18.695047 /home/ryan/golang/src/goexamples/go.logger.test/go.logger.test.go:28: This is a normal log....
+2021/11/08 22:04:18.695228 /home/ryan/golang/src/goexamples/go.logger.test/go.logger.test.go:32: This is a Error Found!!
+[fatal error]2021/11/08 22:04:18.695243 /home/ryan/golang/src/goexamples/go.logger.test/go.logger.test.go:35: This is a fatal log
