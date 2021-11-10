@@ -71,5 +71,9 @@ func main() {
 
 	// isPrint(r rune) bool
 	// CanBackquote(s string) bool
+	fmt.Printf("FormatBool => %v\n", strconv.FormatBool(true))
+	fmt.Printf("FormatInt => %v\n", strconv.FormatInt(99, 8))
+	fmt.Printf("FormatUint => %v\n", strconv.FormatUint(199, 10))
+	fmt.Printf("FormatFloat => %v\n", strconv.FormatFloat(299.99, 'E', -1, 64))
 }
 
