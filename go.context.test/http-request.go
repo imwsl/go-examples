@@ -30,6 +30,22 @@ func (*reqCtx) Value(key interface{}) interface{} {
 
 type goReq struct {
 	ctx *reqCtx
-	url
+	url string
+	Timeout int
+}
+
+func (gr goReq) Get() string {
+	ctx, cancel := context.WithTimeout(context.Background(), 10 * time.Second)
+	defer cancel()
+	gr.ctx = ctx
+	return ""
+}
+
+func main() {
+	var ctx reqCtx = 22
+	var gr goReq = goReq{&ctx, "https://baidu.com", 10}
+	gr.Get()
+
+	fmt.Println("use fmt....")
 }
 
